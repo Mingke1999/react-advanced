@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import TypeCheck from './PropsType/TypeCheck';
+import MainOptimise from './Optimise/MainOptimise';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <div>
-   <TypeCheck/>
+   <MainOptimise/>
  </div>
 );
