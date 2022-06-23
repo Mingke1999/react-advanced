@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import StrictMain from './StrictMode/StrictMain';
+import TypeCheck from './PropsType/TypeCheck';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <div>
-   <StrictMain/>
+   <TypeCheck/>
  </div>
 );
