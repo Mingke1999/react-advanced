@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
+// = () => {} later ...
 
-const WithFetch =(url) => (View) => {
+const WithFetch = (url) => (View) => {
     return class extends React.Component{
         constructor(){
             super();
@@ -9,6 +10,7 @@ const WithFetch =(url) => (View) => {
                 loading:true
             }
         }
+        //all DOM were render
         componentDidMount(){
             fetch(url).then(res=>res.json())
             .then(data=>{

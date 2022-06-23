@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 /**
- * 1. must be a function
+ * 1. HOC must be a function
  * 2. parameter is component
  * 3. return component
  * 4. component reusable, reduce repeat code
