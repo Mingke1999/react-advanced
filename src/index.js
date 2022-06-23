@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Fragment from './Fragment';
+import MainHOC from './HOC/MainHOC';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <div>
-  <Fragment/>
+    <MainHOC/>
  </div>
 );
